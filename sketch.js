@@ -40,14 +40,14 @@ function setup() {
   invisibleGround = createSprite(200,190,400,10);
   invisibleGround.visible = false;
   
-  console.log("Hello" + 5);
+  console.log("Olá" + 5);
   
   score = 0;
 }
 
 function draw() {
   background(180);
-  text("Score: "+ score, 500,50);
+  text("Pontuação: "+ score, 500,50);
   score = score + Math.round(frameCount/60);
   
   
